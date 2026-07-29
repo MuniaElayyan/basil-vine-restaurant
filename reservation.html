@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Basil & Vine | Reservation</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<script>
+tailwind.config={
+theme:{
+extend:{
+colors:{
+gold:'#C6A15B',
+dark:'#121212',
+card:'#181818'
+}
+}
+}
+}
+</script>
+
+</head>
+
+
+<body class="bg-[#121212] text-[#F5F5F5]">
+
+
+
+<header class="fixed w-full top-0 z-50 bg-black/40 backdrop-blur-lg">
+
+<nav class="px-10 py-6 flex justify-between items-center">
+
+<h1 class="text-3xl font-bold text-[#C6A15B]">
+Basil & Vine
+</h1>
+
+
+<div class="hidden md:flex gap-8 text-gray-300">
+
+<a href="index.html" class="hover:text-[#C6A15B] transition">
+Home
+</a>
+
+<a href="menu.html" class="hover:text-[#C6A15B] transition">
+Menu
+</a>
+
+<a href="about.html" class="hover:text-[#C6A15B] transition">
+About
+</a>
+
+<a href="gallery.html" class="hover:text-[#C6A15B] transition">
+Gallery
+</a>
+
+<a href="reservation.html" class="text-[#C6A15B]">
+Reservation
+</a>
+
+<a href="contact.html" class="hover:text-[#C6A15B] transition">
+Contact
+</a>
+
+</div>
+
+
+<button class="md:hidden text-2xl">
+☰
+</button>
+
+
+</nav>
+
+</header>
+
+
+
+
+
+
+
+<section class="pt-36 px-10 pb-20">
+
+
+<div class="grid md:grid-cols-2 gap-14 items-center">
+
+
+
+<div class="bg-[#181818] p-8 md:p-10 rounded-3xl shadow-2xl">
+
+
+<p class="text-[#C6A15B] uppercase tracking-widest">
+Book A Table
+</p>
+
+
+<h2 class="text-5xl font-bold mt-4">
+Reserve Your Experience
+</h2>
+
+
+<p class="text-gray-400 mt-5">
+Join us for an unforgettable dining experience at Basil & Vine.
+</p>
+
+
+
+
+<form class="space-y-5 mt-10">
+
+
+
+<div>
+
+<label class="block mb-2 text-gray-300">
+Full Name
+</label>
+
+<input type="text" placeholder="Your name" class="w-full bg-[#121212] border border-gray-700 rounded-xl px-5 py-4 outline-none focus:border-[#C6A15B] focus:ring-2 focus:ring-[#C6A15B]/30 transition">
+
+</div>
+
+
+
+
+
+<div>
+
+<label class="block mb-2 text-gray-300">
+Email
+</label>
+
+<input type="email" placeholder="Your email" class="w-full bg-[#121212] border border-gray-700 rounded-xl px-5 py-4 outline-none focus:border-[#C6A15B] focus:ring-2 focus:ring-[#C6A15B]/30 transition">
+
+</div>
+
+
+
+
+
+<div class="grid md:grid-cols-2 gap-5">
+
+
+<div>
+
+<label class="block mb-2 text-gray-300">
+Date
+</label>
+
+<input type="date" class="w-full bg-[#121212] border border-gray-700 rounded-xl px-5 py-4 outline-none focus:border-[#C6A15B] focus:ring-2 focus:ring-[#C6A15B]/30 transition">
+
+</div>
+
+
+
+
+<div>
+
+<label class="block mb-2 text-gray-300">
+Time
+</label>
+
+<input type="time" class="w-full bg-[#121212] border border-gray-700 rounded-xl px-5 py-4 outline-none focus:border-[#C6A15B] focus:ring-2 focus:ring-[#C6A15B]/30 transition">
+
+</div>
+
+
+</div>
+
+
+
+
+
+<div>
+
+<label class="block mb-2 text-gray-300">
+Number Of Guests
+</label>
+
+
+<select class="w-full bg-[#121212] border border-gray-700 rounded-xl px-5 py-4 outline-none focus:border-[#C6A15B] focus:ring-2 focus:ring-[#C6A15B]/30 transition">
+
+<option>2 Guests</option>
+<option>4 Guests</option>
+<option>6 Guests</option>
+<option>8+ Guests</option>
+
+</select>
+
+
+</div>
+
+
+
+
+
+
+<button class="w-full bg-[#C6A15B] text-black py-4 rounded-xl font-semibold hover:bg-[#b38d45] transition">
+
+Confirm Reservation
+
+</button>
+
+
+
+
+</form>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="relative overflow-hidden rounded-3xl">
+
+
+<img src="images/table.jpg" alt="Restaurant Table" class="w-full h-[700px] object-cover hover:scale-110 transition duration-700">
+
+
+<div class="absolute bottom-8 left-8 bg-black/60 backdrop-blur-md p-6 rounded-2xl">
+
+
+<h3 class="text-2xl font-bold text-[#C6A15B]">
+Dining Hours
+</h3>
+
+
+<p class="text-gray-300 mt-2">
+Every day<br>
+12 PM - 12 AM
+</p>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<section class="px-10 py-20 bg-[#181818]">
+
+
+<div class="grid md:grid-cols-3 gap-8">
+
+
+
+<div class="bg-[#121212] p-8 rounded-3xl">
+
+<h3 class="text-xl font-bold text-[#C6A15B]">
+Private Events
+</h3>
+
+<p class="text-gray-400 mt-4">
+Perfect space for celebrations and special occasions.
+</p>
+
+</div>
+
+
+
+
+<div class="bg-[#121212] p-8 rounded-3xl">
+
+<h3 class="text-xl font-bold text-[#C6A15B]">
+Fresh Cuisine
+</h3>
+
+<p class="text-gray-400 mt-4">
+Premium ingredients prepared daily.
+</p>
+
+</div>
+
+
+
+
+
+<div class="bg-[#121212] p-8 rounded-3xl">
+
+<h3 class="text-xl font-bold text-[#C6A15B]">
+Premium Service
+</h3>
+
+<p class="text-gray-400 mt-4">
+A team dedicated to your experience.
+</p>
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<footer class="bg-black px-10 py-12">
+
+
+<div class="grid md:grid-cols-3 gap-8">
+
+
+<div>
+
+<h3 class="text-2xl font-bold text-[#C6A15B]">
+Basil & Vine
+</h3>
+
+<p class="text-gray-500 mt-3">
+Luxury restaurant experience.
+</p>
+
+</div>
+
+
+
+<div>
+
+<h3 class="font-bold">
+Opening Hours
+</h3>
+
+<p class="text-gray-500 mt-3">
+12 PM - 12 AM
+</p>
+
+</div>
+
+
+
+<div>
+
+<h3 class="font-bold">
+Location
+</h3>
+
+<p class="text-gray-500 mt-3">
+Downtown City
+</p>
+
+</div>
+
+
+
+</div>
+
+
+</footer>
+
+
+
+</body>
+
+</html>

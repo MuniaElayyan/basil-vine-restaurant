@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Basil & Vine Restaurant</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<script>
+tailwind.config={
+theme:{
+extend:{
+colors:{
+gold:'#C6A15B',
+dark:'#121212',
+card:'#181818'
+}
+}
+}
+}
+</script>
+
+</head>
+
+
+<body class="bg-[#121212] text-[#F5F5F5]">
+
+
+<header class="fixed w-full top-0 z-50 bg-black/40 backdrop-blur-lg">
+
+<nav class="px-10 py-6 flex justify-between items-center">
+
+<h1 class="text-3xl font-bold text-[#C6A15B]">
+Basil & Vine
+</h1>
+
+
+<div class="hidden md:flex gap-8 text-gray-300">
+
+<a href="index.html" class="text-[#C6A15B]">
+Home
+</a>
+
+<a href="menu.html" class="hover:text-[#C6A15B] transition">
+Menu
+</a>
+
+<a href="about.html" class="hover:text-[#C6A15B] transition">
+About
+</a>
+
+<a href="gallery.html" class="hover:text-[#C6A15B] transition">
+Gallery
+</a>
+
+<a href="reservation.html" class="hover:text-[#C6A15B] transition">
+Reservation
+</a>
+
+<a href="contact.html" class="hover:text-[#C6A15B] transition">
+Contact
+</a>
+
+</div>
+
+
+<button class="md:hidden text-2xl">
+☰
+</button>
+
+</nav>
+
+</header>
+
+
+
+
+
+<section class="min-h-screen pt-32 px-10">
+
+<div class="grid md:grid-cols-2 gap-12 items-center">
+
+
+<div class="space-y-7">
+
+
+<p class="text-[#C6A15B] uppercase tracking-widest">
+Fine Dining Experience
+</p>
+
+
+<h2 class="text-6xl md:text-7xl font-bold leading-tight">
+
+A Taste Beyond
+<br>
+Ordinary Dining
+
+</h2>
+
+
+<p class="text-gray-400 text-lg max-w-xl">
+
+Discover handcrafted dishes created with passion,
+fresh ingredients and modern culinary techniques.
+
+</p>
+
+
+
+<div class="flex gap-5">
+
+<a href="reservation.html" class="bg-[#C6A15B] text-black px-8 py-4 rounded-full font-semibold hover:bg-[#b38d45] transition">
+
+Reserve Table
+
+</a>
+
+
+<a href="menu.html" class="border border-[#C6A15B] text-[#C6A15B] px-8 py-4 rounded-full hover:bg-[#C6A15B] hover:text-black transition">
+
+View Menu
+
+</a>
+
+
+</div>
+
+
+</div>
+
+
+
+
+<div class="relative">
+
+<img src="images/hero.jpg" alt="Luxury Dish" class="w-full h-[650px] object-cover rounded-3xl shadow-2xl hover:scale-105 transition duration-700">
+
+
+<div class="absolute bottom-8 left-8 bg-black/60 backdrop-blur-md px-6 py-4 rounded-xl">
+
+<p class="text-[#C6A15B] text-xl font-bold">
+15+
+</p>
+
+<p class="text-gray-300">
+Years Of Excellence
+</p>
+
+</div>
+
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+<section class="px-10 py-20">
+
+
+<div class="flex justify-between items-end mb-10">
+
+
+<div>
+
+<p class="text-[#C6A15B] uppercase">
+Our Menu
+</p>
+
+<h2 class="text-5xl font-bold">
+Signature Dishes
+</h2>
+
+</div>
+
+
+<a href="menu.html" class="text-[#C6A15B]">
+See All →
+</a>
+
+
+</div>
+
+
+
+
+
+<div class="grid md:grid-cols-3 gap-8">
+
+
+
+<div class="bg-[#181818] rounded-3xl overflow-hidden group hover:-translate-y-3 transition">
+
+<img src="images/pizza.jpg" class="w-full h-72 object-cover group-hover:scale-110 transition duration-700">
+
+
+<div class="p-6">
+
+<div class="flex justify-between">
+
+<h3 class="text-2xl font-bold">
+Classic Pizza
+</h3>
+
+<span class="text-[#C6A15B]">
+$12
+</span>
+
+</div>
+
+
+<p class="text-gray-400 mt-3">
+Italian flavors with fresh ingredients.
+</p>
+
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="bg-[#181818] rounded-3xl overflow-hidden group hover:-translate-y-3 transition">
+
+<img src="images/pasta.jpg" class="w-full h-72 object-cover group-hover:scale-110 transition duration-700">
+
+
+<div class="p-6">
+
+<div class="flex justify-between">
+
+<h3 class="text-2xl font-bold">
+Creamy Pasta
+</h3>
+
+<span class="text-[#C6A15B]">
+$18
+</span>
+
+</div>
+
+
+<p class="text-gray-400 mt-3">
+Handmade pasta with special sauce.
+</p>
+
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="bg-[#181818] rounded-3xl overflow-hidden group hover:-translate-y-3 transition">
+
+<img src="images/steak.jpg" class="w-full h-72 object-cover group-hover:scale-110 transition duration-700">
+
+
+<div class="p-6">
+
+<div class="flex justify-between">
+
+<h3 class="text-2xl font-bold">
+Premium Steak
+</h3>
+
+<span class="text-[#C6A15B]">
+$25
+</span>
+
+</div>
+
+
+<p class="text-gray-400 mt-3">
+Perfectly grilled premium steak.
+</p>
+
+
+</div>
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<section class="px-10 py-20 bg-[#181818]">
+
+
+<div class="grid md:grid-cols-2 gap-12 items-center">
+
+
+<img src="images/chef.jpg" class="rounded-3xl h-[550px] w-full object-cover hover:scale-105 transition duration-700">
+
+
+
+<div>
+
+<p class="text-[#C6A15B] uppercase">
+Our Story
+</p>
+
+
+<h2 class="text-5xl font-bold mt-4">
+Passion On Every Plate
+</h2>
+
+
+<p class="text-gray-400 mt-6 leading-8">
+
+At Basil & Vine, we combine tradition and creativity
+to create memorable dining experiences.
+Every dish tells a story.
+
+</p>
+
+
+<a href="about.html" class="inline-block mt-8 text-[#C6A15B] font-semibold">
+
+Discover More →
+
+</a>
+
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<footer class="bg-black px-10 py-12">
+
+
+<div class="grid md:grid-cols-3 gap-8">
+
+
+<div>
+
+<h3 class="text-2xl font-bold text-[#C6A15B]">
+Basil & Vine
+</h3>
+
+<p class="text-gray-500 mt-3">
+Luxury restaurant experience.
+</p>
+
+</div>
+
+
+
+<div>
+
+<h3 class="font-bold">
+Opening Hours
+</h3>
+
+<p class="text-gray-500 mt-3">
+12 PM - 12 AM
+</p>
+
+</div>
+
+
+
+<div>
+
+<h3 class="font-bold">
+Location
+</h3>
+
+<p class="text-gray-500 mt-3">
+Downtown City
+</p>
+
+</div>
+
+
+
+</div>
+
+
+</footer>
+
+
+</body>
+
+</html>
