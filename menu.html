@@ -28,46 +28,61 @@ card:'#181818'
 <body class="bg-[#121212] text-[#F5F5F5]">
 
 
-<header class="fixed w-full top-0 z-50 bg-black/40 backdrop-blur-lg">
+<header class="bg-black/40 backdrop-blur-lg">
 
-<nav class="px-6 py-5 flex flex-col md:flex-row md:justify-between md:items-center gap-4">
+<nav class="max-w-7xl mx-auto px-6 py-5">
 
-<h1 class="text-3xl font-bold text-[#C6A15B] text-center md:text-left">
+<div class="flex justify-between items-center">
+
+<h1 class="text-3xl font-bold text-[#C6A15B]">
 Basil & Vine
 </h1>
 
+<div class="hidden md:flex gap-8 text-gray-300">
 
-<div class="flex flex-wrap justify-center gap-4 md:gap-8 text-sm md:text-base text-gray-300">
-<a href="index.html" class="text-[#C6A15B]">
-Home
-</a>
+<a href="index.html" class="hover:text-[#C6A15B] transition">Home</a>
 
-<a href="menu.html" class="hover:text-[#C6A15B] transition">
-Menu
-</a>
+<a href="menu.html" class="hover:text-[#C6A15B] transition">Menu</a>
 
-<a href="about.html" class="hover:text-[#C6A15B] transition">
-About
-</a>
+<a href="about.html" class="hover:text-[#C6A15B] transition">About</a>
 
-<a href="gallery.html" class="hover:text-[#C6A15B] transition">
-Gallery
-</a>
+<a href="gallery.html" class="hover:text-[#C6A15B] transition">Gallery</a>
 
-<a href="reservation.html" class="hover:text-[#C6A15B] transition">
-Reservation
-</a>
+<a href="reservation.html" class="hover:text-[#C6A15B] transition">Reservation</a>
 
-<a href="contact.html" class="hover:text-[#C6A15B] transition">
-Contact
-</a>
+<a href="contact.html" class="hover:text-[#C6A15B] transition">Contact</a>
+
+</div>
+
+<details class="relative md:hidden">
+
+<summary class="list-none cursor-pointer text-3xl text-white">
+☰
+</summary>
+
+<div class="absolute right-0 mt-4 w-56 bg-[#181818] rounded-2xl shadow-2xl border border-gray-700 p-5 flex flex-col gap-4 z-50">
+
+<a href="index.html" class="hover:text-[#C6A15B] transition">Home</a>
+
+<a href="menu.html" class="hover:text-[#C6A15B] transition">Menu</a>
+
+<a href="about.html" class="hover:text-[#C6A15B] transition">About</a>
+
+<a href="gallery.html" class="hover:text-[#C6A15B] transition">Gallery</a>
+
+<a href="reservation.html" class="hover:text-[#C6A15B] transition">Reservation</a>
+
+<a href="contact.html" class="hover:text-[#C6A15B] transition">Contact</a>
+
+</div>
+
+</details>
 
 </div>
 
 </nav>
 
 </header>
-
 
 
 
